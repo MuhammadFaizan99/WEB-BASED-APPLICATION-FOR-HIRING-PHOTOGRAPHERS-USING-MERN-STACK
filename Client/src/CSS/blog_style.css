@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Add a gray background color with some padding */
+  /* body {
+    font-family: Arial;
+    background: #f1f1f1;
+  } */
+  
+  /* Header/Blog Title */
+  .header1 {
+    padding: 30px 100px 30px 100px;
+  }
+
+  .title1{
+    padding-top: 50px;
+    color: rgb(255, 0, 98);
+    font-weight: bold;
+    font-style: italic;
+    font-family: "Apple Chancery", "cursive";
+    text-align: center;
+      }
+  
+  .container1 {
+  align-items: center;
+}
+
+img1 {
+  padding: 10px;
+  background-color: peachpuff;
+  max-width: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.text1 {
+  font-size: 16px;
+  padding-bottom: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.date1{
+color: rgb(245, 128, 128);
+font-style: italic;
+font-family: "Apple Chancery", "cursive";
+  }
+
+  
+.name1{
+    color: rgb(255, 153, 0);
+    font-weight: bold;
+    font-style: italic;
+    font-family: "Apple Chancery", "cursive";
+    text-align: left;
+}
+
+.font1{
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+}
+  
+.box1 {
+  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  padding: 3.5rem;
+  box-sizing: border-box;
+  border-radius: 8px;
+   
+}
+
+.box1 .inputBox1 {
+  position: relative;
+}
+
+.box1 .inputBox_comment1 input {
+  width: 93%;
+  padding: 60px 10px;
+  font-size: 1rem;
+ letter-spacing: 0.062rem;
+ margin-bottom: 1.875rem;
+ border: 1px solid #ccc;
+ background: transparent;
+ border-radius: 4px;
+}
+
+.box1 .inputBox1 input {
+  width: 93%;
+  padding: 10px 10px;
+  font-size: 1rem;
+ letter-spacing: 0.062rem;
+ margin-bottom: 1.875rem;
+ border: 1px solid #ccc;
+ background: transparent;
+ border-radius: 4px;
+}
+
+.box1 .inputBox1 input:focus {
+    outline: none;
+    border: 2px solid orange;
+}
+
+.box1 .inputBox_comment1 input:focus {
+    outline: none;
+    border: 2px solid orange;
+}
+ 
+.box1 input[type="submit"] {
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color: orange;
+    padding: 0.625rem 1.25rem;
+    cursor: pointer;
+    border-radius: 0.312rem;
+    font-size: 1rem;
+    float: right;
+  }
+   
+  .box1 input[type="submit"]:hover {
+    background-color: orange;
+    box-shadow: 0 1px 1px 0 white, 0 1px 3px 1px rgba(66,133,244,0.3);
+  }
+  
+  .comment1{
+    font-weight: bold;
+    font-family: "Apple Chancery", "cursive";
+  }
+
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 800px) {
+    * {   
+      width: 100%;
+      padding: 0;
+    }
+  }
+
+  @media only screen  and (max-width:1265px){
+    .navbar-content1{
+        flex-direction: column;
+    }
+    .nav-list__navbar-content1{
+        flex-direction: column;
+    }
+    .navbar-logo1{
+        text-align: center;
+    }
+    .rightNav1{
+        text-align: center;
+    }
+    .nav-burger1{
+        display: block;
+    }
+    .h-nav-resp1{
+        height: 60px;
+    }
+    .v-nav-resp1{
+        opacity: 0;
+    }
+  }
